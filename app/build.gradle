@@ -13,12 +13,18 @@ android {
             moduleName "Java2C"
             abiFilters "armeabi","armeabi-v7a","x86"
         }
+
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+
+    sourceSets.main {
+        jniLibs.srcDir 'libs'
+        jni.srcDirs = []
     }
 }
 

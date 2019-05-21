@@ -9,10 +9,10 @@ extern "C" {
 #endif
 /*
  * Class:     com_wapchief_ndk_demo_Java2CJNI
- * Method:    java2c
+ * Method:    java2C
  * Signature: ()Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_com_wapchief_ndk_1demo_Java2CJNI_java2c
+JNIEXPORT jstring JNICALL Java_com_wapchief_ndk_1demo_Java2CJNI_java2C
   (JNIEnv *, jobject);
 
 #ifdef __cplusplus
